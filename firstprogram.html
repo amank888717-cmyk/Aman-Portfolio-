@@ -1,0 +1,158 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - My Personal Website</title>
+  <style>
+    /* Reset and Base Styles */
+    * {
+      margin: 10; padding: 5;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      line-height: 1.6;
+      background: #e6dfdf;
+      color: #c72121ed;
+    }
+    header {
+      background: rgb(211, 207, 207);
+      color: #cf0e0eaf;
+      padding: 40px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      color: #ef0b66;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #b44e2c;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 15px;
+      color: #c21e47;
+      border-bottom: 2px solid #b02258;
+      padding-bottom: 5px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: hsl(0, 9%, 84%);
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 3px 6px hsla(344, 92%, 44%, 0.888);
+      flex: 1 1 250px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #c9bec1;
+      color: #a72c7e;
+      text-align: center;
+      padding: 25px 10px;
+      margin-top: 30px;
+    }
+    footer a {
+      color: #dcd8d7;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Hello, I'm [aman kumar]</h1>
+    <p>Welcome to my personal "About Me" website</p>
+   <img src="IMG_20250528_122952_281.webp" alt="aman" height="250" width="250">
+     <nav> 
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Aman kumar I’m passionate about technology, creativity, and continuous learning. 
+      I enjoy building things on the web, exploring design, and experimenting with new ideas. 
+      When I’m not coding, you’ll probably find me reading, listening to podcasts, or sketching ideas.
+    </p>
+    <p>
+      I started my journey 1 year ago and since then, 
+      I’ve worked on projects ranging from personal websites to group collaborations. 
+      My goal is to keep improving, learn from every challenge, and contribute 
+      to meaningful projects.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card"><h3>Web Development</h3><p>HTML, CSS, JavaScript</p></div>
+      <div class="card"><h3>Programming</h3><p>Python, C++, Java</p></div>
+      <div class="card"><h3>Design</h3><p>UI/UX, Figma, Canva</p></div>
+      <div class="card"><h3>Other</h3><p>Problem-Solving, Creativity, Teamwork</p></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects & Hobbies</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Personal Portfolio</h3>
+        <p>A showcase of my projects, skills, and experience built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Blog Writing</h3>
+        <p>I love writing about tech trends, self-development, and my personal insights.</p>
+      </div>
+      <div class="card">
+        <h3>Creative Hobbies</h3>
+        <p>Drawing, photography, and experimenting with design inspire my daily work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to collaborate or just say hi, feel free to reach out!</p>
+    <p>Email: <a href="mailto:yourname@gmail.com">amank888717@example.com</a></p>
+    <p>LinkedIn: <a href="#">LinkedIn.com</a></p>
+    <p>github  <a href="github.com"></a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 [aman] | Made with ❤️ and Code</p>
+  </footer>
+</body>
+</html>
